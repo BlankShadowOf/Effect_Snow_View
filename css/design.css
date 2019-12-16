@@ -1,0 +1,87 @@
+* {
+	font-family: Segoe UI, Segoe UI Light, Segoe UI Semibold;
+	padding:0px;
+	margin:0px;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	color:white;
+}
+p{
+	font-weight: bold;
+	font-size:30px;
+}
+li{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}
+body{
+	background-image: url(../img/estrellas.jpg);
+	background-position:top center;
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+header{
+	width:100%;
+	padding:40px;
+	display:flex;
+	flex-wrap:wrap;
+}
+header div{
+	width:50%;
+	overflow:hidden;
+}
+header ul{
+	display:flex;
+	float:right;
+}
+header ul li a {
+	font-weight: bold;
+	font-size:15px;
+	padding: 10px 15px;
+	display:block;
+}
+a:hover{
+	opacity:0.8;
+}
+article{
+	width:100%;
+}
+article img{
+	display:block;
+	margin:170px auto;
+	width:170px;
+	border-radius:50%;
+}
+footer{
+	width:100%;
+	padding:0px 15px;
+}
+@media (max-width:700px){
+	header div{
+		width:100%;
+		text-align:center;
+	}
+	header ul{
+		display:flex;
+		float:none;
+		text-align:center;
+	}
+	header p{
+		margin-bottom:30px;
+	}
+	article img{
+		margin:50px auto;
+	}
+	footer p{
+		margin-top:50px;
+		font-size:10px;
+	}
+	footer{
+		padding:15px;
+	}
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Efecto de nieve para su sitio web (estilo Red Saber) / Snow effect for your website (Red Saber style).">
+	<meta name="keywords" content="red saber,padoru,snow effect,blank shadow,shadow,blank,efecto nieve,website">
+	<meta name="author" content="Blank Shadow">
+	<title>Blank Shadow</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<!-- jQuery v3.4.1 -->
+	<script src="js/jquery.js"></script>
+	<!-- STYLE WEB -->
+	<link rel="stylesheet" href="css/design.css">
+	<!-- ICONO DE PESTAÑA -->
+	<link rel="shortcut icon" href="img/blank_shadow.jpg">
+	<!-- PLUGIN SNOW -->
+	<script src="js/jquery.snow.min.1.0.js"></script>
+</head>
+<body class="contenedor-general">
+	<script>
+	$(document).ready( function(){
+		$.fn.snow({newOn: 350});
+	});
+	</script>
+	<header>
+		<div class="left">
+			<p><a href="https://www.youtube.com/BlankShadow">Blank Shadow</a></p>
+		</div>
+		<div class="right">
+			<ul>
+				<li><a href="https://www.youtube.com/BlankShadow">Video</a></li>
+				<li><a href="https://github.com/LuisAlfredoH/Effect_Snow_View">GitHub</a></li>
+				<li><a href="http://workshop.rs/2012/01/jquery-snow-falling-plugin/">Creador del efecto</a></li>
+			</ul>
+		</div>
+		<article>
+			<img src="img/blank_shadow.jpg"/>
+		</article>
+	</header>
+	<footer>
+		<p style="font-size:15px;font-weight:normal;">&#169; 2019 Blank Shadow</p>
+	</footer>
+</body>
